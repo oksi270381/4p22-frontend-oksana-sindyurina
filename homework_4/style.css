@@ -1,0 +1,74 @@
+*{
+box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(45deg, #ff005d 0%, #7eff61 20%, #8ad4ff 40%, #c6abff 60%, #c9d1ff 80%, #ffe5fc 100%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  display: inline-block;
+  margin: 0; 
+}
+header{
+  display: flex;   
+  flex-wrap: wrap;   
+  column-gap: 1000px;
+  background-color:blueviolet;
+}
+.title h1 {
+color: #7eff61;
+}
+.text li {
+color: #101645fb;
+}
+.text a {
+  text-decoration: none;
+}
+.container {  
+display: flex ;   
+flex-wrap: wrap;   
+row-gap: 10px; 
+column-gap: 10px;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 200px; /* Ограничение ширины */
+margin: auto;
+text-align: center;
+font-family: sans-serif;
+}
+img {
+width: 100%;
+}
+h3 {
+color: #7c4dff;
+}
+p {
+  padding: 4px;
+  font-size: 14px;
+  color: #757575;
+}
+.price {
+  color: #d32f2f;
+  font-size: 18px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.footer {
+  background-color:blueviolet;
+  text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
