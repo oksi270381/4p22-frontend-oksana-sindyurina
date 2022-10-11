@@ -12,14 +12,16 @@ body {
 header{
   display: flex;   
   flex-wrap: wrap;   
-  column-gap: 1000px;
+  column-gap: 500px;
   background-color:blueviolet;
+  padding-left: 35%; 
 }
 .title h1 {
 color: #7eff61;
 }
 .text li {
 color: #101645fb;
+list-style-type: none;
 }
 .text a {
   text-decoration: none;
