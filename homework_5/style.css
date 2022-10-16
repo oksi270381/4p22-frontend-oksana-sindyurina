@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    padding: 0;
 }
 .body{
     background-color: beige;
@@ -11,16 +10,12 @@
     background-color: blue;
     height: 89px;
     color: white;
-    width: 1440px;
-    size: 28px;
     z-index: 10px;
+    width: 100%;
 }
 .header__h1{
-    font:size;
-    Width:403px;
-    Height:63px;
-    Top:13px;
-    Left:29px;
+    font-size: 40px;
+    padding-left: 30px;
 }
 .saidbar {
 position: absolute; 
@@ -36,14 +31,13 @@ top: 136px;
     width: 980px;
     margin-top: 40px;
     position: relative;
-    height: 40px;
 }
 .saidbar__list {
-    width: 180px;
-    text-indent: 20px;
-    margin-bottom: 160%;
+    width: 200px;
+    text-indent: 0px;
     line-height: 25px;
     background-color: rgb(125, 168, 17);
+    list-style-type: none;
 }
 .sidebar__text {
    color: blue;
@@ -65,11 +59,13 @@ top: 136px;
     height: 15px;
     padding-bottom: 25px;
     width: 1440px;
-    size: 28px;
     position: sticky;
     top: 100px;
 }
 .content__element {
     list-style-type: none;
+}
+.content__text{
+    font-size: 20px;
 }
  
