@@ -22,21 +22,20 @@ position: absolute;
 border-right: 3px solid grey;
 width: 280px;
 height: 457px;
-left: 5px;
+left: 65px;
 top: 136px;
 }
 .saidbar-h3{
     display: block;
     background-color: rgb(125, 168, 17);
     width: 980px;
-    margin-top: 40px;
+    margin-top: 30px;
     position: relative;
 }
 .saidbar__list {
     width: 200px;
-    text-indent: 0px;
     line-height: 25px;
-    background-color: rgb(125, 168, 17);
+    background-color: rgb(5, 168, 50);
     list-style-type: none;
 }
 .sidebar__text {
@@ -61,6 +60,7 @@ top: 136px;
     width: 1440px;
     position: sticky;
     top: 100px;
+    padding-left: 15px;
 }
 .content__element {
     list-style-type: none;
