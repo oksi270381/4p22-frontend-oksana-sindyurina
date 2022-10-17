@@ -10,7 +10,7 @@
     background-color: blue;
     height: 89px;
     color: white;
-    z-index: 10px;
+    z-index: 10;
     width: 100%;
 }
 .header__h1{
@@ -59,7 +59,7 @@ top: 136px;
     padding-bottom: 25px;
     width: 1440px;
     position: sticky;
-    top: 100px;
+    top: 89px;
     padding-left: 15px;
 }
 .content__element {
