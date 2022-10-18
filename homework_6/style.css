@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-color: beige;
+    margin: 0;
+    
+}
+.header {
+    position: fixed;
+    background-color: blue;
+    height: 89px;
+    color: white;
+    z-index: 10;
+    width: 100%;
+}
+.header__h1{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.saidbar {
+position: absolute; 
+border-right: 3px solid grey;
+width: 30%;
+height: 457px;
+left: 3%;
+top: 136px;
+overflow: auto;
+}
+.saidbar__h3{
+    display: block;
+    background-color: rgb(125, 168, 17);
+    width: 100%;
+    min-width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+.saidbar__list {
+    width: 200px;
+    line-height: 25px;
+    background-color: rgb(5, 168, 50);
+    list-style-type: none;
+}
+.sidebar__text {
+   color: blue;
+}
+.sidebar__link{
+    padding-bottom: 20px;
+    display: list-item;
+}
+.content {
+    position: absolute;
+    left: 40%;
+    top: 132px;
+}
+.content__h2 {
+    background-color: blue;
+    color: white;
+    height: 15px;
+    padding-bottom: 25px;
+    width: 200%;
+    position: sticky;
+    top: 89px;
+    padding-left: 15px;
+}
+.content__element {
+    list-style-type: none;
+}
+.content__text{
+    font-size: 20px;
+}
+ 
