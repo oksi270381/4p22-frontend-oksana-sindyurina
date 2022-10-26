@@ -36,7 +36,7 @@
     text-align: center;
     margin-bottom: 17px;
     color: #787878;
-    font-family: 'Volja-Regular', sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
     font-size: 50px;
 }
@@ -44,7 +44,7 @@
 .registration-email__label {
     display: block;
     margin-bottom:  3px;
-    font-family: 'Volja-Regular', sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #787878;
@@ -56,7 +56,7 @@
     border-radius: 10px;
     width: 100%;
     padding-left: 15px;
-    font-family: 'Volja-Regular' , sans-serif;
+    font-family: 'Roboto-Bold' , sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #787878;
@@ -74,11 +74,10 @@
 .registration-password__label {
     display: block;
     margin-bottom: 3px;
-    font-family: 'Volja-Regular', sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #787878;
-    opacity: 0;
 }
 
 .registration-password__input {
@@ -87,7 +86,7 @@
     border: 2px solid #787878;
     border-radius: 10px;
     padding-left: 15px;
-    font-family: Volja-Regular , sans-serif;
+    font-family: 'Roboto-Bold' , sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #787878;
@@ -114,7 +113,7 @@
 
 .registration-checkbox__label {
     padding-left: 34px;
-    font-family: 'Volja-Regular' , sans-serif;
+    font-family: 'Roboto-Regular' , sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #787878;
@@ -124,7 +123,7 @@
     content:  '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 2px;
     width: 20px;
     height: 20px;
     border: 2px solid #787878; 
@@ -134,17 +133,17 @@
 .registration-checkbox__label::after {
     content: '';
     position: absolute;
-    background: url(img/chec.png);
+    background: url(./img/2.png) center no-repeat;
     width: 24px;
     height: 24px;
     background-size: 100%;
     left: 0;
-    bottom: 0;
+    bottom: 2px;
     opacity: 0;
     transition:  .2 opacity;
 }
 
-.registration-checkbox__input:checked +.registration-checkbox__label ::after {
+.registration-checkbox__input:checked +.registration-checkbox__label::after {
     opacity:  1;
 }
 
@@ -159,7 +158,7 @@
     border: 0;
     background: #1A226B;
     border-radius: 10px;
-    font-family: 'Volja-Regular' , sans-serif;
+    font-family: 'Roboto-Bold' , sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 16px;
@@ -198,7 +197,6 @@
 .registration-password__label {
     margin-bottom: calc(8 / 768 * 100vw);
     font-size:calc(24 / 768 * 100vw) ;  
-    opacity: 0;
 }
 
 .registration-password__input {
@@ -235,4 +233,12 @@
     border-radius: calc(10 / 768 * 100vw);
     font-size: calc(32 / 768 * 100vw);
 }
+}
+@media screen and (max-width: 320px) {
+    .login-checkbox__label::after {
+        left: calc(8 / 768 * 100vw);
+        top: calc(7 / 768 * 100vw);
+        width: calc(14 / 768 * 100vw);
+        height: calc(14 / 768 * 100vw);
+    }
 }
