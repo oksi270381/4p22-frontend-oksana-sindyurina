@@ -133,7 +133,7 @@
 .registration-checkbox__label::after {
     content: '';
     position: absolute;
-    background: url(./img/2.png) center no-repeat;
+    background: url(./img/3.png) center no-repeat;
     width: 24px;
     height: 24px;
     background-size: 100%;
