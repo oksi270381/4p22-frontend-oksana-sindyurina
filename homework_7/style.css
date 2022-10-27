@@ -137,7 +137,7 @@
     width: 24px;
     height: 24px;
     background-size: 100%;
-    left: 0;
+    left: 2px;
     bottom: 2px;
     opacity: 0;
     transition:  .2 opacity;
