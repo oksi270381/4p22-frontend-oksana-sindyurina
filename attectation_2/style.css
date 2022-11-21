@@ -100,9 +100,23 @@ body {
 }
 
 .login-email__label {
-    display: block;
     font-size: 16px;
    margin-bottom: 3px;
+   margin-left: -15px;
+}
+
+.login__star {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 3px;
+}
+
+.login-email__error {
+    position: relative;
+    display: inline;
+    left: 255px;
+    color: red;
+    opacity: 0; 
 }
 
 .login-email__input {
@@ -125,9 +139,17 @@ body {
 }
 
 .login-password__label {
-    display: block;
     font-size: 16px;
     margin-bottom: 3px;
+    margin-left: -15;
+}
+
+.login-password__error {
+    position: relative;
+    display: inline;
+    left: 168px;
+    color: red;
+    opacity: 0; 
 }
 
 .login-password__input {
@@ -211,16 +233,29 @@ body {
 
     .login__title {
         font-size: calc(50 / 768 * 100vw);
-        margin-bottom: calc(15 / 768 * 100vw);
+        margin-bottom: calc(1 / 768 * 100vw);
     }
 
     .login__email {
-        margin-bottom: calc(8 / 768 * 100vw) ;
+        margin-bottom: calc(1 / 768 * 100vw) ;
     }
 
     .login-email__label {
         font-size: calc(16 / 768 * 100vw);
         margin-bottom: calc(3 / 768 * 100vw);
+        margin-bottom: calc(-15 / 768*100vw);
+    }
+
+    .login__star {
+        width: calc(10 / 768 * 100vw);
+        height: calc(10 / 768 * 100vw);
+        margin-bottom: calc(3 / 768 * 100vw);
+    }
+    
+    .login-email__error {
+        left: calc(248 / 768 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
+        opacity: 0;  
     }
 
     .login-email__input {
@@ -237,13 +272,20 @@ body {
     .login-password__label {
         font-size: calc(16 / 768 * 100vw);
         margin-bottom: calc(3 / 768 * 100vw);
+        margin-left: calc(-15 / 768 * 100vw);
+    }
+
+    .login-password__error {
+        left: calc(163 / 768 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
+        opacity: 0;
     }
 
     .login-password__input {
         height: calc(49 / 768 * 100vw);
         padding-left: calc(15 / 768 * 100vw);
         font-size: calc(28 / 768 * 100vw);
-        border: calc(2 / 768 * 100vw) solid #787878
+        border: calc(2 / 768 * 100vw) solid #787878;
     }
 
     .login-submit__input {
@@ -251,4 +293,16 @@ body {
         height: calc(52 / 768 * 100vw);
         font-size: calc(24 / 768 * 100vw);
     }
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.whith {
+    border: 2px solid #787878;
+}
+
+.show {
+    opacity: 1;
 }
