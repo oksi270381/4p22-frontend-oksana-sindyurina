@@ -3,15 +3,15 @@
 }
 
 body {
-   margin: 0;
-   width: 100vw;
-   height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header {
     height: 80px;
-    box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
-    font-family: 'inter-Bold , sans-serif';
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter-Bold', sans-serif;
     font-weight: 700;
 }
 
@@ -28,11 +28,11 @@ body {
 }
 
 .header-logo__img {
-   width: 222px;
-   height: 50px;
-   background-size: 100%;
-   margin-top: 18px;
-   object-fit: cover;
+    width: 222px;
+    height: 50px;
+    background-size: 100%;
+    margin-top: 18px;
+    object-fit: cover;
 }
 
 .header-logo__title {
@@ -48,10 +48,10 @@ body {
 }
 
 .header-registration__link {
-   margin-top: 25px;
-   text-decoration: none;
-   font-size: 24px;
-   color: #787878;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #787878;
 }
 
 .header-auth__link {
@@ -80,11 +80,11 @@ body {
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 37px;
-    background: #ffffff;
-    box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 10px rgba(0 0 0 / 25%);
     font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
-    color: #787878;
+    color: #787878
 }
 
 .login__title {
@@ -101,8 +101,8 @@ body {
 
 .login-email__label {
     font-size: 16px;
-   margin-bottom: 3px;
-   margin-left: -15px;
+    margin-bottom: 3px;
+    margin-left: -15px;
 }
 
 .login__star {
@@ -118,6 +118,13 @@ body {
     color: red;
     opacity: 0; 
 }
+.login-email__error2 {
+    position: absolute;
+    display: inline;
+    left: 278px;
+    color: red;
+    opacity: 0;
+}
 
 .login-email__input {
     height: 49px;
@@ -131,7 +138,7 @@ body {
 }
 
 .login-email__input::placeholder {
-    color: #cccccc;
+    color: #CCCCCC;
 }
 
 .login__password {
@@ -141,7 +148,7 @@ body {
 .login-password__label {
     font-size: 16px;
     margin-bottom: 3px;
-    margin-left: -15;
+    margin-left: -15px;
 }
 
 .login-password__error {
@@ -150,6 +157,14 @@ body {
     left: 168px;
     color: red;
     opacity: 0; 
+}
+
+.login-password__error2 {
+    position: absolute;
+    display: inline;
+    left: 170px;
+    color: red;
+    opacity: 0;
 }
 
 .login-password__input {
@@ -164,7 +179,7 @@ body {
 }
 
 .login-password__input::placeholder {
-    color: #cccccc;
+    color: #CCCCCC;
 }
 
 .login__submit {
@@ -176,74 +191,74 @@ body {
     height: 52px;
     padding: 0;
     border: 0;
-    background: #1a2268;
+    background: #1A226B;
     font-size: 24px;
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
-    .header{
-    height: calc(80 /768*100vw);
-    box-shadow: 0px calc(4 /768*100vw) calc(4 /768*100vw) rgba(0, 0, 0, 0,25);
+    .header {
+        height: calc(80 / 768 * 100vw);
+        box-shadow: 0px calc(4 / 768 * 100vw) calc(4 / 768 * 100vw) rgba(0, 0, 0, 0.25);
     }
-
-    .header__logo {
-        padding-top: calc(20 / 768 * 100vw);
+    
+    .headre__logo {
+        padding-left: calc(20 / 768 * 100vw);
         column-gap: calc(34 / 768 * 100vw);
     }
-
+    
     .header-logo__img {
         width: calc(124 / 768 * 100vw);
         height: calc(25 / 768 * 100vw);
         margin-top: calc(25 / 768 * 100vw);
     }
-
-    .header-logo__title {
+    
+    .header-Logo__title {
         margin-top: calc(23 / 768 * 100vw);
-        font-size: calc(24 / 768* 100vw);
+        font-size: calc(24 / 768 * 100vw);
     }
-
+    
     .header__auth {
-        padding-right: calc(28 / 768 * 100vw) ;
-        font-size: calc(36 / 768 * 100vw);
+        padding-right: calc(28 / 768 * 100vw);
+        column-gap: calc(36 / 768 * 100vw);
     }
-
+    
     .header-registration__link {
         margin-top: calc(30 / 768 * 100vw);
-        font-size: calc(16 / 768* 100vw);
+        font-size: calc(16 / 768 * 100vw);
     }
-
+    
     .header-auth__link {
         margin-top: calc(30 / 768 * 100vw);
-        font-size: calc(16 / 768* 100vw);
+        font-size: calc(16 / 768 * 100vw);
     }
 
     .login {
         width: calc(600 / 768 * 100vw);
         height: calc(383 / 768 * 100vw);
         top: calc(155 / 768 * 100vw);
-        padding-top: calc(26 / 768 * 100vw);
+        padding-top: calc(26 / 1 768 * 100vw);
         padding-left: calc(45 / 768 * 100vw);
         padding-right: calc(45 / 768 * 100vw);
         padding-bottom: calc(37 / 768 * 100vw);
-        box-shadow: 0px 0px calc(40 / 768 * 100vw) calc(10 / 768 * 100vw) rgba(0, 0, 0, 0,25);
+        box-shadow: 0px 0px calc(40 / 768 * 100vw) calc(10 / 768 * 100vw) rgba(0, 0, 0, 0.25);
     }
-
+    
     .login__title {
         font-size: calc(50 / 768 * 100vw);
         margin-bottom: calc(1 / 768 * 100vw);
     }
-
+    
     .login__email {
-        margin-bottom: calc(1 / 768 * 100vw) ;
+        margin-bottom: calc(1 / 768 * 100vw);
     }
 
     .login-email__label {
         font-size: calc(16 / 768 * 100vw);
         margin-bottom: calc(3 / 768 * 100vw);
-        margin-bottom: calc(-15 / 768*100vw);
+        margin-left: calc(-15 / 768 * 100vw);
     }
 
     .login__star {
@@ -262,19 +277,19 @@ body {
         height: calc(49 / 768 * 100vw);
         padding-left: calc(15 / 768 * 100vw);
         font-size: calc(28 / 768 * 100vw);
-        border: calc(2 / 768 * 100vw) solid #787878
-    }
- 
-    .login__password {
-        margin-bottom: calc(48 / 768 * 100vw)
+        border: calc(2 / 768 * 100vw) solid #787878;
     }
 
+    .login__password {
+        margin-bottom: calc(20 / 768 * 100vw);
+    }
+    
     .login-password__label {
         font-size: calc(16 / 768 * 100vw);
         margin-bottom: calc(3 / 768 * 100vw);
         margin-left: calc(-15 / 768 * 100vw);
     }
-
+    
     .login-password__error {
         left: calc(163 / 768 * 100vw);
         font-size: calc(16 / 768 * 100vw);

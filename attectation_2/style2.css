@@ -268,7 +268,7 @@ body {
     left: 4px;
     width: 14px;
     height: 14px;
-    background: url(img/Ellipse2.png) 0 0 no-repeat;
+    background: url(./img/Ellipse3.png) 0 0 no-repeat;
     background-size: 100%;
     opacity: 0;
     transition: .2 opacity;
@@ -320,7 +320,7 @@ body {
     left: 4px;
     width: 14px;
     height: 14px;
-    background: url(img/Ellipse2.png) 0 0 no-repeat;
+    background: url(./img/Ellipse3.png) 0 0 no-repeat;
     background-size: 100%;
     opacity: 0;
     transition: .2 opacity;

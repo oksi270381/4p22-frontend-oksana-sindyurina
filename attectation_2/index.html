@@ -26,20 +26,23 @@
           <h1 class="login__title">Вход</h1>
         <div class="login__box">
           <div class="login__email">
-            <label class="login-email__label" for="email">Email</label>
-            <input class="login-email__input" id="email" type="email" name="email" placeholder="Введите email">
-          </div>
-         <div class="login__password">
-            <label class="login-password__label" for="password">Пароль</label>
-            <input class="login-password__input" id="password" type="password" name="password" placeholder="Введите пароль">
-         </div>
-         <div class="login__submit">
-         <input class="login-submit__input" type="submit" value="Войти">
-         </div>
-        </div>
-          </form>
-      </section>
-      </main>
-      <script src="script.js"></script>
-    </body>
-</html>
+            <label class="login-email__label" for="email"><img class=login__star src="img/png-transparent-computer-icons-icon-design-symbol-miscellaneous-angle-symmetry.png" alt="star"> Email</label>
+                        <div class="login-email__error show">Email введен некорректно</div>
+                        <input class="login-email__input" id="email" name="email" type="email" placeholder="Введите email">
+                    </div>
+                    <div class="login__password">
+                        <label class="login-password__label" for="password"><img class=login__star src="img/png-transparent-computer-icons-icon-design-symbol-miscellaneous-angle-symmetry.png" alt="star"> Пароль</label>
+                        <div class="login-password__error show">Поле обязательно для заполнения</div>
+                        <div class="login-password__error2 red">Пароль должен содержать не менее 8 символов</div>
+                        <input class="login-password__input" id="password" name="password" type="password" placeholder="Введите пароль">
+                    </div>
+                    <div class="login__submit">
+                        <input class="login-submit__input" id='button' type="submit" value="Войти">
+                    </div>
+                </div>        
+            </form>
+        </section>
+    </main>
+    <script src ="script1.js"></script>
+</body>
+</html>    
