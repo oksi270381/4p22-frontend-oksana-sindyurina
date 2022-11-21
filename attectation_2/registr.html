@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
     <link rel="stylesheet" type="text/css" href="style2.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="fonts.css">
+
 </head>
 <body class="body">
     <header class="header">
@@ -27,16 +27,21 @@
             <h1 class="login__title">Регистрация</h1>
           <div class="login__box">
             <div class="login__email">
-              <label class="login-email__label" for="email">Email</label>
-              <input class="login-email__input" id="email"  name="email" type="email" placeholder="Введите email">
+              <label class="login-email__label" for="email"><img class="login__star" src="img/png-transparent-computer-icons-icon-design-symbol-miscellaneous-angle-symmetry.png" alt="star"> Email</label>
+              <div class="login-email__error2">Поле обязательно для заполнения</div>
+              <div class="login-email__error">Email введен некорректно</div>
+              <input class="login-email__input" id="email" name="email" type="email" placeholder="Введите email">
             </div>
            <div class="login__password">
-              <label class="login-password__label" for="password">Пароль</label>
+            <label class="login-password__label" for="password"><img class="login__star" src="img/png-transparent-computer-icons-icon-design-symbol-miscellaneous-angle-symmetry.png" alt="star"> Пароль</label>
+              <div class="login-password__error">Поле обязательно для заполнения</div>
+              <div class="login-password__error2">Пароль должен содержать не менее 8 символов</div>
               <input class="login-password__input" id="password" name="password" type="password" placeholder="Введите пароль">
            </div>
            <div class="login__confirm">
-            <label class="login-confirm__label" for="password">Подтвердите пароль</label>
-            <input class="login-confirm__input" id="password" type="password" name="password" placeholder="Подтвердите пароль">
+            <label class="login-confirm__label" for="password"><img class="login__star" src="img/png-transparent-computer-icons-icon-design-symbol-miscellaneous-angle-symmetry.png" alt="star"> Подтверждение пароля</label>
+            <div class="login-confirm__error">Пароли не совпадают</div>
+            <input class="login-confirm__input" id="confirm" type="password" name="password" placeholder="Подтвердите пароль">
            </div>
             <div class="login__radio">
               <h2 class="login-radio__title">Пол</h2>
