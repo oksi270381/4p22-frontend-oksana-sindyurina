@@ -155,7 +155,7 @@ body {
 .login-password__error {
     position: relative;
     display: inline;
-    left: 168px;
+    left: 250px;
     color: red;
     opacity: 0;
 }
@@ -524,7 +524,7 @@ body {
 
     .login-password__error2 {
         left: calc(170 / 768 * 100vw);
-        top: calc(193 / 768 * 100vw);
+        top: calc(186 / 768 * 100vw);
         font-size: calc(16 / 768 * 100vw);
         opacity: 0;
     }
